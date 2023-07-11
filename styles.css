@@ -32,7 +32,9 @@ header {
   
   nav a:hover {
     color: lightgray;
+    transform: scale(1.1);
   }
+  
   
   form {
     display: grid;
@@ -64,5 +66,9 @@ header {
   
   button:hover {
     background-color: darkblue;
+  }
+  
+  #testimonials {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
   }
   
